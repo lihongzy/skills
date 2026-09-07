@@ -1,0 +1,5 @@
+interface:
+  display_name: "Logicize Statement"
+  short_description: "整理中文语句的逻辑和表达"
+policy:
+  allow_implicit_invocation: false
