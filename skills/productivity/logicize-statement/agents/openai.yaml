@@ -1,5 +1,5 @@
 interface:
   display_name: "Logicize Statement"
-  short_description: "整理中文语句的逻辑和表达"
+  short_description: "将输入内容直接改写为逻辑清晰的中文"
 policy:
   allow_implicit_invocation: false
