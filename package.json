@@ -9,6 +9,8 @@
   },
   "license": "MIT",
   "scripts": {
+    "link-skills": "node scripts/link-skills.mjs",
+    "check-skill-links": "node scripts/link-skills.mjs --check",
     "changeset": "changeset",
     "version": "changeset version && node scripts/sync-plugin-version.mjs",
     "check-plugin-version": "node scripts/sync-plugin-version.mjs --check"
