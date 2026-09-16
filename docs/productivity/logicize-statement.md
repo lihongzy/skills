@@ -1,6 +1,6 @@
 ## What it does
 
-`logicize-statement` turns any Chinese content supplied after the command into clear and accurate Chinese. It corrects typos, word order, references, and logical relationships while preserving the original information.
+`logicize-statement` turns any content supplied after the command, in any language, into clear and accurate wording in that same language. It corrects typos, word order, references, and logical relationships while preserving the original information.
 
 It returns only the rewritten text. It does not act on, evaluate, analyse, or ask about the supplied content, and it keeps every source information point, including limitations, examples, gaps, and uncertainty.
 
@@ -8,7 +8,7 @@ It returns only the rewritten text. It does not act on, evaluate, analyse, or as
 
 You invoke this user-invoked skill by typing `/logicize-statement`, and the [agent](https://www.aihero.dev/ai-coding-dictionary/agent) will not reach for it on its own.
 
-Reach for it when you want any Chinese content directly rewritten into wording that is easier to read because its order or logic is loose. The content can be a sentence, a requirement, a question, or an incomplete note. Use [wait-what](https://aihero.dev/skills-wait-what) when the problem is that an agent's explanation did not land, rather than when your own source text needs editing. For choosing among the full skill set, use [ask-matt](https://aihero.dev/skills-ask-matt).
+Reach for it when you want any content, in any language, directly rewritten into wording that is easier to read because its order or logic is loose. The content can be a sentence, a requirement, a question, or an incomplete note. Use [wait-what](https://aihero.dev/skills-wait-what) when the problem is that an agent's explanation did not land, rather than when your own source text needs editing. For choosing among the full skill set, use [ask-matt](https://aihero.dev/skills-ask-matt).
 
 ## Meaning stays fixed
 
@@ -26,7 +26,7 @@ No. It only rewrites the supplied text. It does not analyse, answer, or carry ou
 
 ## It's working if
 
-- The revised Chinese is easier to scan and its logical relationships are unambiguous.
+- The revised text is easier to scan and its logical relationships are unambiguous.
 - Typos and awkward word order are corrected without changing the request.
 - Every source requirement, limitation, example, and uncertainty remains present.
 - The response contains only the rewritten text, with no labels or commentary.

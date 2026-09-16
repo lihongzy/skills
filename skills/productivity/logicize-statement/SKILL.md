@@ -1,17 +1,17 @@
 ---
 name: logicize-statement
-description: 将手动调用后提供的任意中文内容改写为逻辑清晰、语义准确的表达。
+description: Rewrite any content supplied after a manual invocation, in any language, into logically clear, semantically accurate wording.
 disable-model-invocation: true
 ---
 
-# 语句逻辑化
+# Logicize Statement
 
-用户手动调用此技能后，将调用名称后提供的全部内容视为待改写文本。无论文本的主题、类型或是否完整，都只执行语句逻辑化，不处理文本所描述的任务，也不评价、分析或追问其内容。
+The user invokes this skill manually. Treat everything supplied after the command name as text to rewrite. Whatever its language, subject, type, or completeness, only logicize the statement: do not act on the task it describes, and do not evaluate, analyse, or question its contents.
 
-只输出逻辑化后的文本，不添加标题、说明、前言、分析或其他内容。
+Output only the logicized text. Add no title, explanation, preamble, analysis, or anything else.
 
-改写时：
+When rewriting:
 
-- 完整保留原文的所有信息、要求、限制、例子和不确定性。
-- 修正错字、语序、指代和逻辑关系，使表达清晰、连贯、语义准确。
-- 不删除、合并、概括、补充、推断或改变原文的任何信息、范围或意图。
+- Preserve every piece of information, requirement, constraint, example, and uncertainty from the source, and keep the rewrite in the source text's own language.
+- Fix typos, word order, references, and logical relationships, so the wording is clear, coherent, and semantically accurate.
+- Do not delete, merge, summarise, add, infer, or otherwise change any information, scope, or intent of the source.
